@@ -43,9 +43,9 @@ If you find this card useful, please consider donating. Your support is greatly 
 yaml
 lovelace:
   mode: storage
-  resources:
-    - url: /local/community/ha-biofects-fullmenu/ha-biofects-fullmenu.js
-      type: module
+    resources:
+      - url: /hacsfiles/ha-biofects-fullmenu/ha-biofects-fullmenu.js
+        type: module
 ```
 
 
