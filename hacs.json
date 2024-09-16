@@ -1,5 +1,6 @@
 {
   "name": "HA Biofects Full Menu",
   "render_readme": true,
-  "filename": "ha-biofects-fullmenu.js"
+  "filename": "ha-biofects-fullmenu.js",
+  content_in_root: false
 }
