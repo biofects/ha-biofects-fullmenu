@@ -37,7 +37,7 @@ If you find this card useful, please consider donating. Your support is greatly 
    and select **"Theme"** as the category.
 4. Click **"Add,"** then navigate to the **"Theme"** tab, click **"+ Explore & Download Repositories"** and search for "Biofects."
 5. Install the HA Biofects Full page Menu and restart Home Assistant.
-6. Add the following to your resources:
+6. **(ONLY IF, it does not show in resources.. This is old method)** Add the following to your resources: 
 
 ```
 yaml
