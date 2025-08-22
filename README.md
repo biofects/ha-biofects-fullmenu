@@ -2,7 +2,6 @@
 
 A Home Assistant custom plugin that provides a full-page interactive menu with rotating particles, glowing orb effects, and customizable items.
 
-## 💸 Donations Appreciated!
 
 ---
 ## 💸 Donations Appreciated!
