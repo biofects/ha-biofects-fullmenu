@@ -1,5 +1,8 @@
 {
   "name": "HA Biofects Full Menu",
+  "content_in_root": true,
   "render_readme": true,
-  "content_in_root": true
+  "stage": "integration",
+  "domains": ["lovelace", "frontend"],
+  "zip_release": false
 }

@@ -1,62 +1,69 @@
-# 🚀 HA Biofects Full Menu
+# HA-Biofects-FullMenu
 
-## 🔍 About this
+A Home Assistant custom plugin that provides a full-page interactive menu with rotating particles, glowing orb effects, and customizable items.
 
-HA Biofects Full Menu is a custom Home Assistant Lovelace card that creates a futuristic, interactive full-page menu with rotating particles, glowing orb effects, and customizable menu items. This card is designed to enhance your Home Assistant dashboard with an eye-catching navigation experience.
+## 💸 Donations Appreciated!
+
+---
+## 💸 Donations Appreciated!
+If you find this plugin useful, please consider donating. Your support is greatly appreciated!
+
+### Sponsor me on GitHub
+[![Sponsor Me](https://img.shields.io/badge/Sponsor%20Me-%F0%9F%92%AA-purple?style=for-the-badge)](https://github.com/sponsors/biofects?frequency=recurring&sponsor=biofects) 
+
+### or
+## Paypal
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWRQVYJWC77E6)
+---
 
 
 ## Features
 
-- **Rotating Particles**: Adds dynamic, customizable floating particles.
-- **Glowing Orb**: Pulsating glowing orb animation in the center of the screen.
-- **Menu Items**: Circular, configurable menu items around the orb.
-- **Customizable Styling**: Particle count, colors, and glow effects are fully adjustable.
+* Interactive full-screen menu
+* Rotating particles and glowing orb effects
+* Customizable items
 
 
+## Installation
 
----
+### HACS Installation
 
-## 💸 Donations Welcome!
-If you find this card useful, please consider donating. Your support is greatly appreciated!
+1. Go to **HACS** → **Frontend** → **+ Explore & Download Repositories**.
+2. Search for `HA-Biofects-FullMenu`.
+3. Install it.
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWRQVYJWC77E6)
+This will place the files in `/config/www/community/ha-biofects-fullmenu/`.
 
----
+### Manual Installation
 
+1. Copy the contents of this repository into:
 
-## 🚀 Installation Instructions
+   ```
+   /config/www/community/ha-biofects-fullmenu/
+   ```
+2. Ensure the JavaScript file exists at:
 
-### HACS (Recommended)
+   ```
+   /config/www/community/ha-biofects-fullmenu/ha-biofects-fullmenu.js
+   ```
 
-#### Step-by-Step Guide
+### Add Resource in Home Assistant
 
-1. Ensure [HACS](https://hacs.xyz/) is installed in your Home Assistant.
-2. Open the HACS panel, click the three dots in the top-right corner, and select **"Custom Repositories."**
-3. Add the following URL as a **Custom Repository**:  
-   [https://github.com/biofects/ha-biofects-fullmenu](https://github.com/biofects/ha-biofects-fullmenu)  
-   and select **"Theme"** as the category.
-4. Click **"Add,"** then navigate to the **"Theme"** tab, click **"+ Explore & Download Repositories"** and search for "Biofects."
-5. Install the HA Biofects Full page Menu and restart Home Assistant.
-6. **(ONLY IF, it does not show in resources.. This is old method)** Add the following to your resources: 
+Add the following to your **Lovelace resources** (Configuration → Dashboards → Resources):
 
-```
-yaml
-lovelace:
-  mode: storage
-    resources:
-      - url: /hacsfiles/ha-biofects-fullmenu/ha-biofects-fullmenu.js
-        type: module
+```yaml
+url: /hacsfiles/ha-biofects-fullmenu/ha-biofects-fullmenu.js
+type: module
 ```
 
+## Usage
 
-## 🛠️ Usage Instructions
+Once installed, add the card to your dashboard:
 
-1. Create a new dashboard (I used FP) and make it default
-2. Navigate to the page
-3. Click on edit (the Pencil icon) in the upper right hand corner
-4. Click on the 3 dots in the upper right hand corner
-5. Select raw configuration editor
-6. Add the the following
+```yaml
+type: custom:ha-biofects-fullmenu
+```
 
 #### Basic Example
 
