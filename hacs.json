@@ -2,11 +2,6 @@
   "name": "HA Biofects Full Menu",
   "content_in_root": true,
   "render_readme": true,
-  "zip_release": false,
-  "homeassistant": "2023.11.0",
-  "description": "A futuristic, interactive full-page menu for Home Assistant dashboards with glowing effects and customizable items.",
-  "authors": ["biofects"],
-  "changelog": "https://github.com/biofects/ha-biofects-fullmenu/releases",
-  "repository": "https://github.com/biofects/ha-biofects-fullmenu"
+  "zip_release": false
 }
 
